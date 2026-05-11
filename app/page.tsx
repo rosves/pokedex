@@ -2,7 +2,7 @@ import CardList from "@/components/CardList";
 import { Pokemon } from "@/components/Card";
 
 export default async function Home() {
-  const res = await fetch("https://nestjs-pokedex-api.vercel.app/pokemons?limit=151");
+  const res = await fetch("https://nestjs-pokedex-api.vercel.app/pokemons"); 
   const pokemons: Pokemon[] = await res.json();
 
   return (

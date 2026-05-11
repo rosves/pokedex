@@ -1,12 +1,5 @@
 "use client";
 
-
-// Liste des pokémons, par défaut 50 par 50
-// Scroll en fin de page => refetch n pokémons en fonction du filtre "limit"
-// Filtre le nom du pokémon > oui
-// Filtre sur le(s) type(s) du pokémon > oui
-// Affiche des pokémons sur des cards avec l'ID, l'image, le nom, les types > oui
-
 import { useState } from "react";
 import Link from "next/link";
 import Card, { Pokemon } from "./Card";
